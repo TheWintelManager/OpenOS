@@ -1,10 +1,10 @@
 # PyOs
-# this is a passion projet based off of maco terminal
+# this is a passion project meant to be an open source project for people modify and enhance
 
 import datetime
 import psutil
 import threading
-from colorama import Fore, Style  ## EW WHY SO MANY IMPORTS UAGGHHHHHHHHH
+from colorama import Fore, Style  ## EW WHY SO MANY IMPORTS UAGGHHH
 import shutil
 import time
 import os
@@ -14,9 +14,9 @@ import string
 import math
 import sys
 
-Vir = "Version 1.0"
+Vir = "Version 1.0" #cannot be updated over wireless
 
-USER = input(Fore.GREEN + Style.BRIGHT + "Username: ")  #lets u input a username
+USER = input(Fore.GREEN + Style.BRIGHT + "Username: ")  #lets user input a username
 
 if USER == "":
   print(Fore.RED + Style.BRIGHT + "You didn't input a username!")
